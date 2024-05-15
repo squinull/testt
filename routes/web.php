@@ -6,4 +6,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/post-auth', 'YourController@handlePost');
+Route::post('/post-auth', 'testPost@handlePost');
